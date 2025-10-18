@@ -35,7 +35,7 @@ export default function HomePage(): JSX.Element {
 
           {/* Hero illustration row */}
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 opacity-90">
-            {["/html_tutorial.jpg","/css_tutorial.jpg","/javascript_tutorial.jpg","/mysql_tutorial.jpg"].map((src) => (
+            {["html_tutorial.jpg","css_tutorial.jpg","javascript_tutorial.jpg","mysql_tutorial.jpg"].map((src) => (
               <div key={src} className="rounded-xl bg-white/70 p-3 ring-1 ring-black/5 shadow-sm backdrop-blur">
                 <img src={src} alt="course" className="h-28 w-full object-cover rounded-lg" />
               </div>

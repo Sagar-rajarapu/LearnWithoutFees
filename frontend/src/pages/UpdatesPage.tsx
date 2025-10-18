@@ -2,7 +2,7 @@ import React from 'react'
 import { useFetch } from '../hooks/useFetch'
 
 export default function UpdatesPage(): JSX.Element {
-  const { data, loading, error } = useFetch<Array<{title:string;text:string;image:string;time:string}>>('/data/updates.json')
+  const { data, loading, error } = useFetch<Array<{title:string;text:string;image:string;time:string}>>('data/updates.json')
   return (
     <div className="min-h-[calc(100vh-120px)] bg-slate-100">
       <div className="mx-auto max-w-5xl px-6 py-10">
@@ -11,7 +11,7 @@ export default function UpdatesPage(): JSX.Element {
           {(data ?? []).map((n) => (
             <div className="flex items-center justify-between gap-4 rounded-2xl border border-gray-200 bg-white p-4 shadow-sm" key={n.title}>
               <div className="flex items-center gap-3">
-                <img src="/logo.PNG" alt="user" className="h-10 w-10 rounded-full" />
+                <img src="logo.PNG" alt="user" className="h-10 w-10 rounded-full" />
                 <div>
                   <div className="text-sm"><b>{n.title}</b> {n.text}</div>
                   <div className="text-xs text-gray-500">{n.time}</div>

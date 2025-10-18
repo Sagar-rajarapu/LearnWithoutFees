@@ -7,7 +7,7 @@ export default function Navbar(): JSX.Element {
   return (
     <div className="navbar">
       <Link to="/" className="flex items-center gap-2">
-        <img src="/logo.PNG" className="logo" alt="logo" />
+        <img src="logo.PNG" className="logo" alt="logo" />
         <span className="hidden sm:block font-bold text-gray-900">LearnWithoutFees</span>
       </Link>
       <ul className="flex items-center gap-1">

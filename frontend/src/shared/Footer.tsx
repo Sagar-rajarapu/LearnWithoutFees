@@ -8,7 +8,7 @@ export default function Footer(): JSX.Element {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2">
-              <img src="/logo.PNG" alt="logo" className="h-8 w-8 rounded" />
+              <img src="logo.PNG" alt="logo" className="h-8 w-8 rounded" />
               <span className="font-bold text-gray-900">LearnWithoutFees</span>
             </div>
             <p className="mt-3 text-sm text-gray-600">Free, accessible learning for everyone. No fees. No ads. Just knowledge.</p>

@@ -12,7 +12,7 @@ type Course = {
 
 export default function CoursePage(): JSX.Element {
   const [popupUrl, setPopupUrl] = useState<string | null>(null)
-  const { data, loading, error } = useFetch<Course[]>('/data/courses.json')
+  const { data, loading, error } = useFetch<Course[]>('data/courses.json')
 
   const embedUrl = useMemo(() => {
     if (!popupUrl) return null
