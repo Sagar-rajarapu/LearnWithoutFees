@@ -4,7 +4,7 @@ import React from 'react'
 const sagar = {
   name: 'RAJARAPU SAGAR',
   role: 'TEAM LEADER',
-  image: 'https://media.licdn.com/dms/image/v2/D5603AQEBNdxsiE69PA/profile-displayphoto-shrink_800_800/B56ZYvJhnbGcAg-/0/1744547753841?e=1762387200&v=beta&t=kCHD_9j4OS85RI8hqDb8R15Fpbx2jXrwVtT5-ZtjG8A',
+  image: 'sagar.jpeg',
   instagram: 'https://www.instagram.com/wanderer_sagar_/',
   linkedin: 'https://www.linkedin.com/in/sagarrajarapu/',
   github: 'https://github.com/Sagar-rajarapu',
