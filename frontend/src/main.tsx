@@ -35,7 +35,7 @@ const router = createBrowserRouter([
     ]
   }
 ], {
-  basename: '/online-course-registration'
+  basename: '/LearnWithoutFees'
 })
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
