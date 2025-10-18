@@ -6,7 +6,7 @@ export default function AdminLoginPage(): JSX.Element {
     <div className="bg-slate-100 py-10">
       <div className="mx-auto w-full max-w-md rounded-2xl bg-white p-6 shadow-lg ring-1 ring-black/5">
         <div className="flex flex-col items-center">
-          <img src="/admin.png" alt="admin" className="h-12 w-12" />
+          <img src="admin.png" alt="admin" className="h-12 w-12" />
           <h2 className="mt-2 text-xl font-extrabold text-gray-900">Admin Login</h2>
         </div>
         <form onSubmit={(e) => { e.preventDefault() }} className="mt-4 space-y-4">
