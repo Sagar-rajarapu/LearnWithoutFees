@@ -34,7 +34,9 @@ const router = createBrowserRouter([
       { path: 'admin/login', element: <AdminLoginPage /> }
     ]
   }
-])
+], {
+  basename: '/online-course-registration'
+})
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
